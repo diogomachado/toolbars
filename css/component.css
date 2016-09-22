@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Roboto-Regular';
-    src:url('../font/Roboto-Regular.ttf');
+    font-family: 'Roboto-Medium';
+    src:url('../font/Roboto-Medium.ttf');
 }
 
 .toolbar{
     display: flex;
     box-shadow: 0 1px 8px rgba(0,0,0,.3);
-    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-family: 'Roboto-Medium', Arial, sans-serif;
     padding: 0;
 }
 
@@ -40,6 +40,12 @@
     text-overflow: ellipsis;
     justify-content: flex-start;
     padding: 1rem .5rem;
+}
+
+.toolbar section:first-child.title{
+    width: 78%;
+    padding: 1rem .5rem;
+
 }
 
 .toolbar section:last-child{
@@ -76,8 +82,8 @@ aside.title{
         height: 0;
     }
     to {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
         opacity: 0;
     }
 }
@@ -87,8 +93,8 @@ aside.title{
         height: 0;
     }
     to {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
         opacity: 0;
     }
 }
@@ -98,8 +104,8 @@ aside.title{
         height: 0;
     }
     to {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
         opacity: 0;
     }
 }
@@ -109,8 +115,43 @@ aside.title{
         height: 0;
     }
     to {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
         opacity: 0;
+    }
+}
+
+/*
+    Beta test
+
+    @ toolbar title 20dp
+    @ toolbar height 56dp
+
+*/
+/* Moto x */
+@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 2dppx){
+    .toolbar{
+        height: 55px;
+    }
+
+    .toolbar section.title{
+        font-size: 20px;
+    }
+}
+
+/* Iphone 6 plus*/
+@media (-webkit-min-device-pixel-ratio: 3) and (min-resolution: 2.46dppx){
+
+    /* Not exact count */
+    body{
+        font-size: 20px;
+    }
+
+    .toolbar{
+        height: 87px;
+    }
+
+    .toolbar section.title{
+        font-size: 25px;
     }
 }
