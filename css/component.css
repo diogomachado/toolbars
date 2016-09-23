@@ -40,6 +40,9 @@
     text-overflow: ellipsis;
     justify-content: flex-start;
     padding: 1rem .5rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
 }
 
 .toolbar section:first-child.title{
@@ -48,7 +51,12 @@
 
 }
 
-.toolbar section:last-child{
+.toolbar section:last-child.title{
+    width: 86%;
+    display: block;
+}
+
+.toolbar section:last-child:not(.title){
     width: 22%;
     justify-content: flex-end;
     overflow: visible;
