@@ -1,8 +1,42 @@
 # toolbars
-Toolbars mobile simple (Html, CSS and Javascript)
+> Simple Toolbars. Just Html, CSS and Javascript pure (without Jquery).
 
-![Toolbar default](https://lh3.googleusercontent.com/fO2GCmXiHEmuBJj9yovy4du_LOEAxyxzNZRi3eIq8P1mZ2T3HF6ZFQwFmUA9U1e-_8C6qvvrkOzIJLxg0nk0IrXBImGqWmr-SvOXrsbIKTc9MksiI_uj9bx_YToqoq8GtI1eUlbbOhx-iTxf0HqXcd-jEADmXBw0fBcrtk2esuhFYD4kmoC2TFho8mC3moLvTJ_ceRFbRZJpOfHBbga3buCvMwyHDml6AmOJvZHc98-S78SBjDcvKeX5vTmkhVyc00DCNWBO2KKhPNQeRm36mzJcdiBZwvO9-LMfAdn_A_7pmCqQAWeTavQoV8N_sat1trydUmAfKCjpZtPKERC1kCUN9IbdGUpDQtOaz1F5BQJRodoKFKgzPkHfh--VLwHcNlTMQ7ZXsTu2UhU5-Bab0yAkf5LFqv8VIl3pbvh37AlIME4as2SI25GKhAKog9cJ80y-OMuFS9vAgSoGZiJ6fyB5GmXfuDxCJ8q-SrywAzNMm1ExPctFldjWq8-jm0nxSogQcYZUSIGCuBaFSzk6EFUKs33XTiPmq_XcwfUSK1wIjMt2pUd4Sy4Y7nmg44DU7UyQzYQ7=w1280-h699-k?v=1474512041628)
+![Toolbar default](https://lh3.googleusercontent.com/2jHN3ynefe6Yx0pCaMf-agKXN6K70KxOYzOjONz8Yi9YmbRLCoSZ-d97Xd9dDiguQ0A2t5Tlw_7UxRBIct2DZcRf3tnf6WY31bwoEJG3BZ1tjDe3nqJYc5awF566HlxVceqfY6SrgZB-dZf5tQ8t-v1kAniNormckeeJhnih_sswfmwhoUO7vr_o2rBpDdwilRkxWn4Ot7Yin_RzF0Jq65GftTVzrVFMFGLrwiYJNPykJUo_gQQZmJ9IKXgBalXC3eVMCp4pula5cqSxjJvc7eID_514Owueu6KTqhw4EeWiel4mutD7PBYqilc_r4YKNTXswKBoV6byu1KsK0N8Rm_z84JthIj1Vn4wVroiDQam1wZZU3QKA4tf3-HJ3TxZX-a0qD2F1zgytlbBmrl_usYGBt0PmDs7_Qitku-GLc3-OqOhPAfEncOSCHENl34nhxGutGDSNLEVhYcg3hJ5K2jmOt-XEOn7uL5SLeOAJioISKlN5aRZxJCC15QOwxslfeVQGKbbjnfI0nb0pQhZp2xiNy8qddKWVcjZYDcbPqNQOl_u0M19QkKosGKrR-7ujNgyVDh9=w1543-h810-k?v=1474650475414)
 
-![Toolbar blue](https://lh3.googleusercontent.com/DME-Mc81kCAFMOlrwgcAPkA69C7hCFzPRM3mCIRHxkxWAJ74KHkRcKfOfW2-4_Qx2KQ9UwBgEMhJdvcRGALEta9yHX9oO0hLMVQT7ceCiE32yi6ZIKWIpnVMpdZkOh5B1bzRACBj7S8beB5-Lc2ra01ErhDdj2w_oljEw-8Amuxyf3R74cG0vA37yg6sazhuVZinkDkoY-0I60KFCMROF0BmqAhbZi9pmudqOVqiMOxEse-JZPuYM3tQNoXQxTMU3T320fLkyPgsCtjVH9pJPDGo03vYTpK7O1DIzgM7bAWrc7s8Y3dFd8CF4WuW7dnIP0MXYukHUR9XHo9sfqvuDd9ei7MdmMjsahunkpv2SMbpGmoaO1Zse5Y1rwjs2q7A_lppHaOXpJYKoraymZY_jBOBCZRhr1ut0cyPx1VWtS-tSmOdwAAAyNBkPZxr8LSib0hi8IdaHcfywK93J8W7C9w-ahRoR-OnogI3ftbd7u2ohIJrp9eKmhhUOauH3EEII8mvzje-Xfm8F3AmrWGbIofPizvKpFhEvW8CHCWfO89E_WiQOSnMbM-U_DqS_8_6gxXxtWwS=w1280-h699-k?v=1474512039821)
+## Why
+Sometimes we do not want to use a framework to create only one component
 
-![Toolbar blue gray](https://lh3.googleusercontent.com/QHSv33zqGBtJD6teiMgILkmnoK7zFgDASMz5p-P5chf5lrfJt7ufi3V5lmdRvFjj6fuPAYTG86ndfK67R5_q4zHzpTS1DRMVXTM7OV-7e1pa-fXQkEtjIM88KodEIennCfroD-WlM1Ccv_59edX7Zc8jM7t2X_fOJIBOOYdB9MQTCNve-ROvk8FfhC6L5FQV4iiKUHETqjTz_YW6ZetBhw3KmOLF0zg4X-qfon9PMCNKJ0OusVJtXmejFfRFGfKGKOBSceAj7gQ1RNgJD1Ajm3PN6dtdnhmBlwCpc0QFDngq-5yaegPGYGDvLQX0xrp6e3PYRc47T2x58PPE1aucoz9eirHc-LbZV1rSgq8WvraY4-0WipN6VG5JgH5uOrYNAcovolF-69xGoy99fO5JXOVEer7R509MYyW4NZdgFmYLi2FF-quFlZ7ArtxdGRhuFyZWSjAyGFpB--eqF8wG-akPeexH8TUcQb02s0RhKYHpPU4yxz1_nTIKTt79lorZU0pDKERp3zdPu5KwSS7229tcp0hSksXhFVqvfk2y6CvslSmp9FIIfsdxsg7viNo_gDbjAZWI=w1280-h699-k?v=1474512038021)
+## How to use
+
+### Add the dependencies
+``` Html
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/icons.css">
+<link rel="stylesheet" href="css/component.css">
+```
+
+### Enter the html markup
+``` Html
+<header class="toolbar">
+    <section>
+        <button class="touch">
+            <i class="icon arrow_back"></i>
+        </button>
+    </section>
+
+    <section class="title">
+        Settings
+    </section>
+
+    <section>
+        <button>
+            <i class="icon search"></i>
+        </button>
+        <button>
+            <i class="icon more_vert"></i>
+        </button>
+    </section>
+</header>
+```
+
+Win \o/
