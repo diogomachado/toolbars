@@ -1,4 +1,4 @@
-var buttons = document.querySelectorAll("button");
+var buttons = document.querySelectorAll(".toolbar button");
 
 for(var x=0; x < buttons.length; x++){
     buttons[x].addEventListener("click", waveEffect);
