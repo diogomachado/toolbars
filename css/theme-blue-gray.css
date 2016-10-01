@@ -1,5 +1,9 @@
 .toolbar{
     background: #607D8B;
+}
+
+.toolbar,
+.toolbar button i{
     color: white;
 }
 
