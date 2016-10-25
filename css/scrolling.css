@@ -1,0 +1,73 @@
+.hide{
+    animation: hide 300ms ease both;
+}
+
+@-webkit-keyframes hide{
+    from {
+
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+@-o-keyframes hide{
+    from {
+
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+@-moz-keyframes hide{
+    from {
+
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+@keyframes hide{
+    from {
+
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.show{
+    animation: show 300ms ease both;
+}
+
+@-webkit-keyframes show{
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+@-o-keyframes show{
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+@-moz-keyframes show{
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+@keyframes show{
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}

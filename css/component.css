@@ -3,11 +3,23 @@
     src:url('../font/Roboto-Medium.ttf');
 }
 
+body{
+    background: #eee;
+}
+
 .toolbar{
+    z-index: 500;
     display: flex;
     box-shadow: 0 1px 8px rgba(0,0,0,.3);
     font-family: 'Roboto-Medium', Arial, sans-serif;
-    padding: 0;
+    padding: 0 12px;
+    background: #F5F5F5;
+    align-items: center;
+}
+
+.toolbar-fixed{
+    position: fixed;
+    width: 100%;
 }
 
 .toolbar button{
@@ -27,6 +39,7 @@
     display: flex;
     overflow: hidden;
     align-items: center;
+    height: 100%;
 }
 
 .toolbar section:first-child{
@@ -42,7 +55,7 @@
     padding: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: block;
+    font-size: 1.248em;
 }
 
 .toolbar section.title-right-one-btn{
@@ -68,6 +81,10 @@
     width: 14%;
     justify-content: flex-end;
     overflow: visible;
+}
+
+.toolbar section i{
+    color: #424242;
 }
 
 aside.title{
@@ -149,10 +166,6 @@ aside.title{
     .toolbar{
         height: 55px;
     }
-
-    .toolbar section.title{
-        font-size: 20px;
-    }
 }
 
 /* Iphone 6 plus*/
@@ -165,9 +178,5 @@ aside.title{
 
     .toolbar{
         height: 87px;
-    }
-
-    .toolbar section.title{
-        font-size: 25px;
     }
 }

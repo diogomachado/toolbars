@@ -1,0 +1,13 @@
+.toolbar{
+    background: none;
+    box-shadow: none;
+}
+
+.toolbar,
+.toolbar button i{
+    color: #212121;
+}
+
+.icon{
+    color: white;
+}
