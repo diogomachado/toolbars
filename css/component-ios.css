@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'SF-UI-Display-Regular';
+    src:url('../font/SF-UI-Display-Regular.otf');
+}
+
+body{
+    background: #fff;
+}
+
+.toolbar{
+    box-shadow: none;
+    font-family: 'SF-UI-Display-Regular', Arial, sans-serif;
+}
+
+.toolbar section,
+.toolbar section:first-child,
+.toolbar section:last-child:nth-last-child(1):not(.title){
+    width: 19%;
+}
+
+.toolbar section.title.title-without-btn{
+    width: 62%;
+    justify-content: center;
+}
+
+.toolbar button {
+    font-size: .92em;
+}
+
+.toolbar section i{
+    display: none;
+}
+
+.toolbar section button span{
+    display: block;
+}
+
+.toolbar section i:before{
+    content: "";
+}

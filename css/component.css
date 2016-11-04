@@ -83,8 +83,13 @@ body{
     overflow: visible;
 }
 
+
 .toolbar section i{
     color: #424242;
+}
+
+.toolbar section button span{
+    display: none;
 }
 
 aside.title{
