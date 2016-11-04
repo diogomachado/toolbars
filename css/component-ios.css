@@ -8,7 +8,6 @@ body{
 }
 
 .toolbar{
-    box-shadow: none;
     font-family: 'SF-UI-Display-Regular', Arial, sans-serif;
 }
 
@@ -18,7 +17,7 @@ body{
     width: 19%;
 }
 
-.toolbar section.title.title-without-btn{
+.toolbar section.title{
     width: 62%;
     justify-content: center;
 }
@@ -27,12 +26,21 @@ body{
     font-size: .92em;
 }
 
+.toolbar button:active{
+    opacity: 0.39;
+}
+
 .toolbar section i{
     display: none;
 }
 
-.toolbar section button span{
+.toolbar section button{
+    padding: 0;
+}
+
+.toolbar section button span.text{
     display: block;
+    padding: 1rem 0;
 }
 
 .toolbar section i:before{

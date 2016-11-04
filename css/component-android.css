@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Roboto-Medium';
+    src:url('../font/Roboto-Medium.ttf');
+}
+
+body{
+    background: #eee;
+}
+
+.toolbar{
+    font-family: 'Roboto-Medium', Arial, sans-serif;
+    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+}
+
+.effect-wave {
+    display: block;
+    position: absolute;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation-name: wave;
+    animation-duration: 300ms;
+    animation-timing-fuction: ease;
+    animation-fill-mode: both;
+    transform-origin: center;
+}
+
+@-webkit-keyframes wave{
+    from {
+        width: 0;
+        height: 0;
+    }
+    to {
+        width: 75px;
+        height: 75px;
+        opacity: 0;
+    }
+}
+@-o-keyframes wave{
+    from {
+        width: 0;
+        height: 0;
+    }
+    to {
+        width: 75px;
+        height: 75px;
+        opacity: 0;
+    }
+}
+@-moz-keyframes wave{
+    from {
+        width: 0;
+        height: 0;
+    }
+    to {
+        width: 75px;
+        height: 75px;
+        opacity: 0;
+    }
+}
+@keyframes wave{
+    from {
+        width: 0;
+        height: 0;
+    }
+    to {
+        width: 75px;
+        height: 75px;
+        opacity: 0;
+    }
+}

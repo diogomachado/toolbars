@@ -1,17 +1,6 @@
-@font-face {
-    font-family: 'Roboto-Medium';
-    src:url('../font/Roboto-Medium.ttf');
-}
-
-body{
-    background: #eee;
-}
-
 .toolbar{
     z-index: 500;
     display: flex;
-    box-shadow: 0 1px 8px rgba(0,0,0,.3);
-    font-family: 'Roboto-Medium', Arial, sans-serif;
     padding: 0 12px;
     background: #F5F5F5;
     align-items: center;
@@ -47,15 +36,15 @@ body{
 }
 
 .toolbar section.title{
-    width: 64%;
+    width: 86%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     justify-content: flex-start;
-    padding: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.248em;
+    padding: 1rem;
 }
 
 .toolbar section.title-right-one-btn{
@@ -66,10 +55,6 @@ body{
     width: 78%;
     padding: 1rem;
 
-}
-
-.toolbar section.title.title-without-btn{
-    width: 86%;
 }
 
 .toolbar section:last-child.title{
@@ -83,80 +68,21 @@ body{
     overflow: visible;
 }
 
-
 .toolbar section i{
     color: #424242;
 }
 
-.toolbar section button span{
-    display: none;
+.toolbar section button{
+    padding: 1rem 0;
+}
+
+.toolbar section button span.text{
+     display: none;
 }
 
 aside.title{
     display: flex;
     flex-direction: row;
-}
-
-.effect-wave {
-    display: block;
-    position: absolute;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 0px;
-    height: 0px;
-    background-color: black;
-    border-radius: 50%;
-    opacity: 0.5;
-    animation-name: wave;
-    animation-duration: 300ms;
-    animation-timing-fuction: ease;
-    animation-fill-mode: both;
-    transform-origin: center;
-}
-
-@-webkit-keyframes wave{
-    from {
-        width: 0;
-        height: 0;
-    }
-    to {
-        width: 75px;
-        height: 75px;
-        opacity: 0;
-    }
-}
-@-o-keyframes wave{
-    from {
-        width: 0;
-        height: 0;
-    }
-    to {
-        width: 75px;
-        height: 75px;
-        opacity: 0;
-    }
-}
-@-moz-keyframes wave{
-    from {
-        width: 0;
-        height: 0;
-    }
-    to {
-        width: 75px;
-        height: 75px;
-        opacity: 0;
-    }
-}
-@keyframes wave{
-    from {
-        width: 0;
-        height: 0;
-    }
-    to {
-        width: 75px;
-        height: 75px;
-        opacity: 0;
-    }
 }
 
 /*
